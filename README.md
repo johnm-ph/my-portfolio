@@ -9,7 +9,8 @@ currently deployed to Vercel.
 
 # Some Notes From My Day-1 Deploy
 
-###1. Local Build
+### 1. Local Build
+	
 	Install dependencies
 		npm install
 
@@ -20,7 +21,8 @@ currently deployed to Vercel.
 		npx eleventy --serve
 	
 ### 2. Create a .gitignore in root (Neccessary for Vercel as this fixed permission issues)
-/ Tells Git which files/folders to ignore.
+Tells Git which files/folders to ignore.
+	
 	On root, create the following file: .gitignore and populate with the following:	
 		node_modules/
 		.DS_Store
