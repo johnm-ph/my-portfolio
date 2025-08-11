@@ -5,8 +5,6 @@
   "main": ".eleventy.js",
   "scripts": {
     "build": "eleventy"
-  "engines": {
-    "node": "18.x"
   },
   "repository": {
     "type": "git",
