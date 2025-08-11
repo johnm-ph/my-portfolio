@@ -1,8 +1,6 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": ".eleventy.js",
   "scripts": {
     "build": "eleventy"
   },
@@ -19,5 +17,10 @@
   "homepage": "https://github.com/johnm-ph/my-portfolio#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2"
+  }
+  "engines": {
+	"node": "18.x"
+  }
+
   }
 }
