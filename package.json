@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "scripts": {
-    "build": "eleventy"
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
