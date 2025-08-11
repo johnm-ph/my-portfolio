@@ -2,8 +2,9 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "scripts": {
+    "postinstall": "chmod +x ./node_modules/.bin/eleventy",
     "build": "npx @11ty/eleventy"
-  },
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnm-ph/my-portfolio.git"
