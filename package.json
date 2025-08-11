@@ -1,10 +1,23 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
   "scripts": {
     "build": "eleventy"
   },
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnm-ph/my-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnm-ph/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/johnm-ph/my-portfolio#readme",
+  "dependencies": {
     "@11ty/eleventy": "^3.1.2"
   }
 }
