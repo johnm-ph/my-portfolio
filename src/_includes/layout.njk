@@ -2,15 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-   {# this is what's new #}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{% if title %}{{ title }} | {% endif %}My Portfolio</title>
+  <title>{{ title | default("My Portfolio") }}</title>
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-  {% include "nav.njk" %}
+  <header>
+    <nav>
+      <ul>
+        {% for item in navigation %}
+			 <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+
   <main>
     {{ content | safe }}
   </main>
+
+  <footer>
+    <p>&copy; {{ site.currentYear }} Johnmarc Medalla Candelaria</p>
+  </footer>
+  
 </body>
 </html>
